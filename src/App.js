@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { render } from 'react-dom';
-import Counter from './Counter';
+// import Counter from './Counter';
+import CounterClass from './CounterClass';
 import './style.css';
 
 const App = () => {
@@ -9,7 +10,7 @@ const App = () => {
   return (
     <>
       <h1>{count}</h1>
-      <Counter min={0} onChange={setCount} />
+      <CounterClass min={0} onChange={setCount} />
     </>
   );
 };

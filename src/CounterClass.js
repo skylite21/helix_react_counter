@@ -12,6 +12,7 @@ class CounterClass extends Component {
   //   this.state = { number: 0 };
   // }
 
+  // class property
   state = { number: 0 };
 
   setMax() {
